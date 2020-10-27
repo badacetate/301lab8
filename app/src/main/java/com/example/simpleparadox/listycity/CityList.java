@@ -59,7 +59,7 @@ public class CityList {
     public void delete(City city) {
         if (!hasCity(city)) {
             throw new IllegalArgumentException();
-            
+
         }
 
         for (City c : cities) {
